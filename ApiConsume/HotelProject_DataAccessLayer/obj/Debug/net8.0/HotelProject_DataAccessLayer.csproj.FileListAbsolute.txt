@@ -1,0 +1,17 @@
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\bin\Debug\net8.0\HotelProject_DataAccessLayer.deps.json
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\bin\Debug\net8.0\HotelProject_DataAccessLayer.runtimeconfig.json
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\bin\Debug\net8.0\HotelProject_DataAccessLayer.dll
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\bin\Debug\net8.0\HotelProject_DataAccessLayer.pdb
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\bin\Debug\net8.0\HotelProject_EntityLayer.dll
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\bin\Debug\net8.0\HotelProject_EntityLayer.pdb
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelPro.C1B1EB04.Up2Date
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.dll
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\refint\HotelProject_DataAccessLayer.dll
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.pdb
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\HotelProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_DataAccessLayer\obj\Debug\net8.0\ref\HotelProject_DataAccessLayer.dll

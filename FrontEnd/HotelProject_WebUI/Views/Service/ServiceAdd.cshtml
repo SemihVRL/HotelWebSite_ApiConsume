@@ -1,0 +1,88 @@
+﻿@model AddServiceDto
+@{
+    ViewData["Title"] = "ServiceAdd";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+
+
+
+<form method="post">
+
+
+    <div>
+        <label>ıcon</label>
+        <input type="text" asp-for="ServiceIcon" class="form-control" />
+        <span asp-validation-for="ServiceIcon" class="text-danger"></span>
+    </div>
+
+     <div>
+        <label>title</label>
+        <input type="text" asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>desc</label>
+        <input type="text" asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary">Ekle</button>
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @using (Html.BeginForm("ServiceAdd", "Service", FormMethod.Post))
+{
+
+<div>
+    <label>service ıcon</label>
+    @Html.TextBoxFor(x => x.ServiceIcon, new { @class = "form-control", })
+
+</div>
+
+<div>
+    <label>TİTLE</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control", })
+
+</div>
+
+
+
+<div>
+    <label>des</label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control", })
+
+</div>
+
+
+<br />
+<button class="btn btn-primary">EKLE</button>
+} *@
+
+

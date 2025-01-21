@@ -1,0 +1,41 @@
+﻿@model AddTestimonialsViewModel
+@{
+    ViewData["Title"] = "TestimonialsAdd";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("TestimonialsAdd", "Testimonials", FormMethod.Post))
+{
+
+    <div>
+        <label>NAME</label>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control", })
+
+    </div>
+
+    <div>
+        <label>TİTLE</label>
+        @Html.TextBoxFor(x => x.Title, new { @class = "form-control", })
+
+    </div>
+
+
+
+    <div>
+        <label>descr</label>
+        @Html.TextBoxFor(x => x.Description, new { @class = "form-control", })
+
+    </div>
+
+
+    <div>
+        <label>ımg</label>
+        @Html.TextBoxFor(x => x.Image, new { @class = "form-control", })
+
+    </div>
+
+   
+    <br />
+    <button class="btn btn-primary">EKLE</button>
+}
+

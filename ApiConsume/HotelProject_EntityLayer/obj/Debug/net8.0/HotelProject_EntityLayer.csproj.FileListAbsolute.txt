@@ -1,0 +1,14 @@
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\bin\Debug\net8.0\HotelProject_EntityLayer.deps.json
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\bin\Debug\net8.0\HotelProject_EntityLayer.runtimeconfig.json
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\bin\Debug\net8.0\HotelProject_EntityLayer.dll
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\bin\Debug\net8.0\HotelProject_EntityLayer.pdb
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.AssemblyInfo.cs
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.dll
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\refint\HotelProject_EntityLayer.dll
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.pdb
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\HotelProject_EntityLayer.genruntimeconfig.cache
+C:\Users\semih\source\repos\Hotel_WebSite\ApiConsume\HotelProject_EntityLayer\obj\Debug\net8.0\ref\HotelProject_EntityLayer.dll

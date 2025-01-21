@@ -1,0 +1,59 @@
+﻿@model StaffUpdateViewModel
+@{
+    ViewData["Title"] = "StaffUpdate";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("StaffUpdate", "Staff", FormMethod.Post))
+{
+    <div>
+        <label>ID</label>
+        @Html.TextBoxFor(x => x.StaffID, new { @class = "form-control", @readonly="readonly"})
+
+    </div>
+
+
+    <div>
+        <label>NAME</label>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control", })
+
+    </div>
+
+    <div>
+        <label>TİTLE</label>
+        @Html.TextBoxFor(x => x.Title, new { @class = "form-control", })
+
+    </div>
+
+
+
+    <div>
+        <label>SM1</label>
+        @Html.TextBoxFor(x => x.SocialMedia1, new { @class = "form-control", })
+
+    </div>
+
+
+    <div>
+        <label>SM2</label>
+        @Html.TextBoxFor(x => x.SocialMedia2, new { @class = "form-control", })
+
+    </div>
+
+    <div>
+        <label>SM3</label>
+        @Html.TextBoxFor(x => x.SocialMedia3, new { @class = "form-control", })
+
+    </div>
+
+
+    <div>
+        <label>IMAGE</label>
+        @Html.TextBoxFor(x => x.Image, new { @class = "form-control", })
+
+    </div>
+
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+}
+

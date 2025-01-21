@@ -1,0 +1,31 @@
+﻿@model AdminMailViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+<h1>Mail Alanı</h1>
+<form class="" method="post">
+
+
+    <form class="" method="post">
+
+        <label>Alıcı Mail Adresi</label>
+        <input type="text" asp-for="ReceiverMail" class="form-control" />
+
+        <label>Konu</label>
+        <input type="text" asp-for="Subject" class="form-control" />
+
+        <label>Mesajınız</label>
+        <textarea asp-for="Body" class="form-control"></textarea>
+        <br />
+        <button class="btn btn-primary">Maili Gönder</button>
+
+    </form>
+
+
+
+
+</form>
+
+
+

@@ -1,0 +1,46 @@
+﻿@model UpdateTestimonialsViewModel
+@{
+    ViewData["Title"] = "TestimonialsUpdate";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+@using (Html.BeginForm("TestimonialUpdate", "Testimonial", FormMethod.Post))
+{
+    <div>
+        <label>ID</label>
+        @Html.TextBoxFor(x => x.TestimonialID, new { @class = "form-control", @readonly = "readonly" })
+
+    </div>
+
+
+    <div>
+        <label>NAME</label>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control", })
+
+    </div>
+
+    <div>
+        <label>TİTLE</label>
+        @Html.TextBoxFor(x => x.Title, new { @class = "form-control", })
+
+    </div>
+
+
+
+    <div>
+        <label>desc</label>
+        @Html.TextBoxFor(x => x.Description, new { @class = "form-control", })
+
+    </div>
+
+
+    <div>
+        <label>ımg</label>
+        @Html.TextBoxFor(x => x.Image, new { @class = "form-control", })
+
+    </div>
+
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+}
+
+

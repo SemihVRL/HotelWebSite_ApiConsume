@@ -1,0 +1,34 @@
+﻿@model List<TestimonialsViewModel>
+@{
+    ViewData["Title"] = "TestimonialsIndex";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+
+<h3 style="text-align:center">Testimonials listelenmesi Web API tarafından </h3>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Testimonials Name</th>
+        <th>Testimonials Title</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.TestimonialID</td>
+            <td>@x.Name</td>
+            <td>@x.Title</td>
+            <td><a href="/Testimonials/TestimonialsUpdate/@x.TestimonialID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="/Testimonials/TestimonialsDelete/@x.TestimonialID" class="btn btn-danger">Sil</a></td>
+            <td><a href="#" class="btn btn-dark">Detaylar</a></td>
+        </tr>
+    }
+
+
+</table>
+
+<a href="/Testimonials/TestimonialsAdd/" class="btn btn-primary">Yeni Testimonials Ekle</a>
+

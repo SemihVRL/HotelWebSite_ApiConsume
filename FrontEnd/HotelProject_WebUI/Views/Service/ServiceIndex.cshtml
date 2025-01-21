@@ -1,0 +1,38 @@
+﻿@model List<ListServiceDto>
+@{
+    ViewData["Title"] = "ServiceIndex";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+
+<h3 style="text-align:center">Service listelenmesi Web API tarafından/dto ile </h3>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>service ıcon</th>
+        <th>serviceTitle</th>
+        <th>descrip</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ServiceID</td>
+            <td>@x.ServiceIcon</td>
+            <td>@x.Title</td>
+            <td>@x.Description</td>
+            <td><a href="/Service/ServiceUpdate/@x.ServiceID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="/Service/ServiceDelete/@x.ServiceID" class="btn btn-danger">Sil</a></td>
+            <td><a href="#" class="btn btn-dark">Detaylar</a></td>
+        </tr>
+    }
+
+
+</table>
+
+<a href="/Service/ServiceAdd/" class="btn btn-primary">Yeni Staff Ekle</a>
+
+
+

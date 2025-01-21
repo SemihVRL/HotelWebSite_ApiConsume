@@ -1,0 +1,56 @@
+﻿@model List<ListBookingDto>
+@{
+    ViewData["Title"] = "BookingIndex";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h3 style="text-align:center">Rezervasyon listelenmesi Web API tarafından/dto ile </h3>
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <div class="card-title">
+                <h4>Rezervasyon</h4>
+            </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>name</th>
+                            <th>check in</th>
+                            <th>check out</th>
+                            <th>Onayla</th>
+                            <th>İptal Et</th>
+                            <th>Beklet</th>
+                            <th>Güncelle</th>
+                            <th>Detaylar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var x in Model)
+                        {
+                            count++;
+
+
+                            <tr>
+                                <th>@count</th>
+                                <td>@x.Name</td>
+                                <td>@(((DateTime)x.CheckIn).ToString("dd-MMM-yyyy"))</td>
+                                <td>@(((DateTime)x.CheckOut).ToString("dd-MMM-yyyy"))</td>
+                                <td><a href="#" class="btn btn-outline-primary">Onayla</a></td>
+                                <td><a href="#" class="btn btn-outline-danger">İptal Et</a></td>
+                                <td><a href="#" class="btn btn-outline-warning">Beklet</a></td>
+                                <td><a href="#" class="btn btn-outline-info">Güncelle</a></td>
+                                <td><a href="#" class="btn btn-outline-dark">Detaylar</a></td>
+
+                              @*   /BookingAdmin/BookingUpdate/@x.BookingID *@
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+﻿@model List<StaffViewModel>
+@{
+    ViewData["Title"] = "StaffIndex";
+    Layout = "~/Views/Shared/Admin/AdminLayout.cshtml";
+}
+
+<h3 style="text-align:center">Staff listelenmesi Web API tarafından </h3>
+
+<table class="table table-bordered">
+    <tr> 
+        <th>#</th>
+        <th>StaffName</th>
+        <th>StaffTitle</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.StaffID</td>
+            <td>@x.Name</td>
+            <td>@x.Title</td>
+            <td><a href="/Staff/StaffUpdate/@x.StaffID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="/Staff/StaffDelete/@x.StaffID" class="btn btn-danger">Sil</a></td>
+            <td><a href="#" class="btn btn-dark">Detaylar</a></td>
+        </tr>
+    }
+
+
+</table>
+
+<a href="/Staff/StaffAdd/" class="btn btn-primary">Yeni Staff Ekle</a>
+

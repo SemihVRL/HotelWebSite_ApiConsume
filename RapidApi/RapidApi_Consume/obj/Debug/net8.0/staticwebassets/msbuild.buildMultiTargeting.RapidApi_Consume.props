@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RapidApi_Consume.props" />
+</Project>
